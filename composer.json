@@ -1,0 +1,25 @@
+{
+    "name": "wyrihaximus/sli-fly",
+    "description": "Flysystem Service Provider for Silex",
+    "license": "MIT",
+    "keywords": [
+        "flysystem",
+        "silex"
+    ],
+    "authors": [
+        {
+            "name": "Cees-Jan Kiewiet",
+            "email": "ceesjank@gmail.com",
+            "homepage": "http://wyrihaximus.net/"
+        }
+    ],
+    "require": {
+        "league/flysystem": "~0.5",
+        "silex/silex": "~1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "WyriHaximus\\SliFly\\": "src/"
+        }
+    }
+}
