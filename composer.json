@@ -4,7 +4,9 @@
     "license": "MIT",
     "keywords": [
         "flysystem",
-        "silex"
+        "filesystem",
+        "silex",
+        "service-provider"
     ],
     "authors": [
         {
