@@ -1,7 +1,7 @@
 SliFly
 ======
 
-[Flysystem](https://github.com/thephpleague/flysystem) service provider for [Silex](http://silex.sensiolabs.org/).
+[Flysystem](http://flysystem.thephpleague.com/) service provider for [Silex](http://silex.sensiolabs.org/).
 
 ## Installation ##
 
