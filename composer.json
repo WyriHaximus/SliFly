@@ -16,7 +16,8 @@
         }
     ],
     "require": {
-        "league/flysystem": "^1.0",
+        "php": ">=5.4",
+        "wyrihaximus/pimple-flysystem-service": "dev-master",
         "silex/silex": "~1.2"
     },
     "autoload": {
