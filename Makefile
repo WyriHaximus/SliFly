@@ -1,5 +1,5 @@
-all: oc phpcs dunit phpunit
-travis: phpcs phpunit-travis
+all: oc cs dunit unit
+travis: cs unit-travis
 
 init:
 	if [ ! -d vendor ]; then composer install; fi;
@@ -7,13 +7,13 @@ init:
 oc: init
 	./vendor/bin/phpcs --standard=phpcs.xml src/
 
-phpcs: init
+cs: init
 	./vendor/bin/phpcs --standard=PSR2 src/
 
-phpunit: init
+unit: init
 	./vendor/bin/phpunit --coverage-text --coverage-html covHtml
 
-phpunit-travis: init
+unit-travis: init
 	./vendor/bin/phpunit --coverage-text --coverage-clover ./build/logs/clover.xml
 
 dunit: init
