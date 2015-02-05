@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c6c2d3c5986bada3b16de74f911ad2b5",
+    "hash": "2855304f19ebc52a878de7c61b6c27db",
     "packages": [
         {
             "name": "league/flysystem",
@@ -573,16 +573,16 @@
         },
         {
             "name": "wyrihaximus/pimple-flysystem-service",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WyriHaximus/pimple-flysystem-service.git",
-                "reference": "dea903aacc8b70e1b34feac17ae3dbc4e0bee1cf"
+                "reference": "105edb8dbdb62f8b510c99807b47aad17f7ba7b3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WyriHaximus/pimple-flysystem-service/zipball/dea903aacc8b70e1b34feac17ae3dbc4e0bee1cf",
-                "reference": "dea903aacc8b70e1b34feac17ae3dbc4e0bee1cf",
+                "url": "https://api.github.com/repos/WyriHaximus/pimple-flysystem-service/zipball/105edb8dbdb62f8b510c99807b47aad17f7ba7b3",
+                "reference": "105edb8dbdb62f8b510c99807b47aad17f7ba7b3",
                 "shasum": ""
             },
             "require": {
@@ -592,6 +592,7 @@
             },
             "require-dev": {
                 "object-calisthenics/phpcs-calisthenics-rules": "~1.0",
+                "phake/phake": "^1.0",
                 "phpunit/phpunit": "~4.4",
                 "squizlabs/php_codesniffer": "~1.0",
                 "vectorface/dunit": "~2.0"
@@ -620,7 +621,7 @@
                 "pimple",
                 "service"
             ],
-            "time": "2015-02-03 21:48:34"
+            "time": "2015-02-05 21:03:08"
         }
     ],
     "packages-dev": [
@@ -1659,9 +1660,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "wyrihaximus/pimple-flysystem-service": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
