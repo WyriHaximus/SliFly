@@ -19,7 +19,7 @@ class FlysystemServiceProvider implements ServiceProviderInterface
      */
     public function register(Application $app)
     {
-        $this->registerFlysystem($app);
+        $this->registerFlysystems($app);
     }
 
     /**
