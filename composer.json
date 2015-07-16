@@ -25,10 +25,14 @@
             "WyriHaximus\\SliFly\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+          "WyriHaximus\\SliFly\\Tests\\": "tests/"
+        }
+    },
     "require-dev": {
         "vectorface/dunit": "~2.0",
         "squizlabs/php_codesniffer": "~1.0",
-        "object-calisthenics/phpcs-calisthenics-rules": "~1.0",
         "phpunit/phpunit": "~4.4"
     }
 }

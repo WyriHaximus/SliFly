@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2855304f19ebc52a878de7c61b6c27db",
+    "hash": "4d0db7b9443cd9d9e908d1f4174ce8aa",
     "packages": [
         {
             "name": "league/flysystem",

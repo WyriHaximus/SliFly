@@ -1,11 +1,8 @@
-all: oc cs dunit unit
+all: cs dunit unit
 travis: cs unit-travis
 
 init:
 	if [ ! -d vendor ]; then composer install; fi;
-
-oc: init
-	./vendor/bin/phpcs --standard=phpcs.xml src/
 
 cs: init
 	./vendor/bin/phpcs --standard=PSR2 src/
@@ -18,3 +15,6 @@ unit-travis: init
 
 dunit: init
 	./vendor/bin/dunit
+
+travis-coverage: init
+	if [ -f ./build/logs/clover.xml ]; then wget https://scrutinizer-ci.com/ocular.phar && php ocular.phar code-coverage:upload --format=php-clover ./build/logs/clover.xml; fi
