@@ -38,8 +38,6 @@ matrix:
       env: dependencies=highest
     - php: hhvm
       env: dependencies=highest
-  allow_failures:
-    - php: hhvm
 
 ## Update composer and run the appropriate composer command
 before_script:
