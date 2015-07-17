@@ -13,7 +13,6 @@ class FlysystemServiceProviderTest extends \PHPUnit_Framework_TestCase
             'registerFlysystems',
         ]);
 
-
         $provider
             ->expects($this->once())
             ->method('registerFlysystems')
