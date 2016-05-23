@@ -23,6 +23,9 @@ $app->register(new WyriHaximus\SliFly\FlysystemServiceProvider(), [
             'args' => [
                 __DIR__,
             ],
+            'config' => [
+                // Config array passed in as second argument for the Filesystem instance
+            ],
         ],
     ],
 ]);
