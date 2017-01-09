@@ -17,7 +17,7 @@
     ],
     "require": {
         "php": ">=5.4",
-        "wyrihaximus/pimple-flysystem-service": "^1.2.0",
+        "wyrihaximus/pimple-flysystem-service": "^2.0",
         "silex/silex": "~2.0"
     },
     "autoload": {
