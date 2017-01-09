@@ -20,6 +20,6 @@ class FlysystemServiceProviderTest extends \PHPUnit_Framework_TestCase
         ;
 
         $provider->register($application);
-        $this->assertInstanceOf('Silex\ServiceProviderInterface', $provider);
+        $this->assertInstanceOf('Pimple\ServiceProviderInterface', $provider);
     }
 }
