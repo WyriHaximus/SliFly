@@ -24,8 +24,6 @@ matrix:
       env: dependencies=lowest
     - php: hhvm
       env: dependencies=lowest
-    - php: 5.4
-      env: dependencies=highest
     - php: 5.5
       env: dependencies=highest
     - php: 5.6
