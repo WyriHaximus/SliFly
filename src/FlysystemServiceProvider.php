@@ -2,8 +2,9 @@
 
 namespace WyriHaximus\SliFly;
 
+use Pimple\Container;
+use Pimple\ServiceProviderInterface;
 use Silex\Application;
-use Silex\ServiceProviderInterface;
 use WyriHaximus\Pimple\FlysystemServiceProviderTrait;
 
 class FlysystemServiceProvider implements ServiceProviderInterface
@@ -13,11 +14,11 @@ class FlysystemServiceProvider implements ServiceProviderInterface
     /**
      * Register this service provider with the Application.
      *
-     * @param Application $app Application.
+     * @param Container $app Container.
      *
      * @return void
      */
-    public function register(Application $app)
+    public function register(Container $app)
     {
         $this->registerFlysystems($app);
     }

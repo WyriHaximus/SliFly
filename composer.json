@@ -16,9 +16,10 @@
         }
     ],
     "require": {
-        "php": ">=5.4",
-        "wyrihaximus/pimple-flysystem-service": "^1.2.0",
-        "silex/silex": "~1.2"
+        "php": ">=5.5.9",
+        "wyrihaximus/pimple-flysystem-service": "^2.0",
+        "pimple/pimple": "^3.0",
+        "silex/silex": "~2.0"
     },
     "autoload": {
         "psr-4": {
